@@ -21,10 +21,11 @@ source("tabs/descriptives.R")
 
 
 ui <- 
-  page_navbar(title = "Statistikker!", id="page", selected = "descriptives",
+  page_navbar(title = "Statistikker!", id="page",
     nav_panel("Start",
       h2("Welcome to Statistikker! "),
       p("This application is intended to help students gain a deeper understanding of statistics through interactive demonstrations of core concepts." ),
+      p("Click on the tabs above to access the statistics topics." ),
     ),
     nav_panel("Variables
 ",
